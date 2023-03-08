@@ -15,10 +15,10 @@
 
         if (move_uploaded_file($tempname, $folder)) {
             echo "<h3> Success to upload image!</h3>";
-            include "button.php";
+            include "../View/button.php";
         } else {
             echo "<h3> Failed to upload image!</h3>";
-            include "button.php";
+            include "../View/button.php";
         }
     }
 ?>
