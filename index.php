@@ -17,14 +17,14 @@
 	</div>
 
 	<section class="py-2">
-        <div class="container-fluid px-4 px-lg-5 mt-5">
-            <div class="row gx-4 gx-lg-5 row-cols-1 row-cols-md-3 row-cols-xl-4 justify-content-center">
-                <?php
-                    include "controller/ShowImages.php";
-                ?>
-            </div>
-        </div>
-    </section>
+		<div class="container-fluid px-4 px-lg-5 mt-5">
+			<div class="row gx-4 gx-lg-5 row-cols-1 row-cols-md-3 row-cols-xl-4 justify-content-center">
+				<?php
+				include "controller/ShowImages.php";
+				?>
+			</div>
+		</div>
+	</section>
 
 </body>
 
